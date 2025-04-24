@@ -905,7 +905,10 @@
 	    <!-- Dynamic reason will be inserted here -->
 	  </ul>
       <p id="payment-retry-warning" style="display:none; color: #c62828; font-weight: bold; margin-top: 15px;"></p>
-      <button id="retryPaymentBtn" onclick="retryPayment()" class="btn" style="margin-top: 20px; margin-right: 10px;"> 🔁 Retry Payment </button>
+      <!--button id="retryPaymentBtn" onclick="retryPayment()" class="btn" style="margin-top: 20px; margin-right: 10px;"> 🔁 Retry Payment </button-->
+	  <button id="retryPaymentBtn" onclick="retryPayment()" class="btn" style="margin-top: 20px; margin-right: 10px;">
+		<span style="line-height: 1;">🔁</span> Retry Payment
+	  </button>
 	  <button onclick="backToProducts()" class="btn" style="margin-top: 20px;">
        <i class="fas fa-arrow-left"></i> Back to Products </button>
     </div>
